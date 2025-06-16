@@ -195,12 +195,14 @@ def generar_turnos_mes():
 
     for fecha in dias:
         for horario in horarios:
-            turnos[str(siguiente_id)] = {
-                "dni_paciente": "",
-                "fecha": fecha,
-                "horario": horario,
-                "paciente_nombre": "",
-            }
+            turnos[str(siguiente_id)] = (
+                {  # agrego siguiente_id como indice del diccionario
+                    "dni_paciente": "",
+                    "fecha": fecha,
+                    "horario": horario,
+                    "paciente_nombre": "",
+                }
+            )
             siguiente_id += 1
             generados += 1
 

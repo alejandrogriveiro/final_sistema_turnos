@@ -59,9 +59,9 @@ def cargar_configuracion():
         if os.path.exists("data/configuracion.json"):
             with open("data/configuracion.json", "r", encoding="utf-8") as f:
                 return json.load(f)
-        return None
+        return None  # capturo errores del try
     except:
-        return None
+        return None  # si no existe o esta corrupto el archivo
 
 
 def guardar_configuracion(config):
@@ -195,12 +195,14 @@ def generar_turnos_mes():
 
     for fecha in dias:
         for horario in horarios:
-            turnos[str(siguiente_id)] = {
-                "dni_paciente": "",
-                "fecha": fecha,
-                "horario": horario,
-                "paciente_nombre": "",
-            }
+            turnos[str(siguiente_id)] = (
+                {  # agrego siguiente_id como indice del diccionario
+                    "dni_paciente": "",
+                    "fecha": fecha,
+                    "horario": horario,
+                    "paciente_nombre": "",
+                }
+            )
             siguiente_id += 1
             generados += 1
 

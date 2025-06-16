@@ -59,9 +59,9 @@ def cargar_configuracion():
         if os.path.exists("data/configuracion.json"):
             with open("data/configuracion.json", "r", encoding="utf-8") as f:
                 return json.load(f)
-        return None
+        return None  # capturo errores del try
     except:
-        return None
+        return None  # si no existe o esta corrupto el archivo
 
 
 def guardar_configuracion(config):

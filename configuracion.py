@@ -40,15 +40,16 @@ def menu_configuracion():
         print(centrar_texto("3. Volver al menú principal"))
         print()
         opcion = input(centrar_texto("Seleccione una opción (1-3): ")).strip()
-        if opcion == "1":
-            generar_turnos_mes()
-        elif opcion == "2":
-            configurar_horarios()
-        elif opcion == "3":
-            break
-        else:
-            print(centrar_texto("❌ Opción inválida"))
-            pausar()
+        match opcion:
+            case "1":
+                generar_turnos_mes()
+            case "2":
+                configurar_horarios()
+            case "3":
+                break
+            case _:
+                print(centrar_texto("❌ Opción inválida"))
+                pausar()
 
 
 # FUNCIONES DE ARCHIVO
@@ -59,9 +60,9 @@ def cargar_configuracion():
         if os.path.exists("data/configuracion.json"):
             with open("data/configuracion.json", "r", encoding="utf-8") as f:
                 return json.load(f)
-        return None  # capturo errores del try
+        return None
     except:
-        return None  # si no existe o esta corrupto el archivo
+        return None
 
 
 def guardar_configuracion(config):
@@ -173,7 +174,6 @@ def generar_turnos_mes():
 
     turnos = cargar_turnos()
 
-    # Verificar si ya hay turnos para ese mes y año
     for t in turnos.values():
         fecha = t.get("fecha", "")
         if fecha.endswith(f"/{mes:02d}/{anio}"):
@@ -195,14 +195,12 @@ def generar_turnos_mes():
 
     for fecha in dias:
         for horario in horarios:
-            turnos[str(siguiente_id)] = (
-                {  # agrego siguiente_id como indice del diccionario
-                    "dni_paciente": "",
-                    "fecha": fecha,
-                    "horario": horario,
-                    "paciente_nombre": "",
-                }
-            )
+            turnos[str(siguiente_id)] = {
+                "dni_paciente": "",
+                "fecha": fecha,
+                "horario": horario,
+                "paciente_nombre": "",
+            }
             siguiente_id += 1
             generados += 1
 
@@ -227,15 +225,25 @@ def configurar_horarios():
     print()
 
     try:
-        hora_inicio = int(
-            input(centrar_texto("Ingrese hora de inicio (0-23): ")).strip()
-        )
-        if hora_inicio < 0 or hora_inicio > 23:
+        hora_inicio_input = input(
+            centrar_texto("Ingrese hora de inicio (1-23) o 0 para salir: ")
+        ).strip()
+        if hora_inicio_input == "0":
+            return
+        hora_inicio = int(hora_inicio_input)
+        if hora_inicio < 1 or hora_inicio > 23:
             print(centrar_texto("❌ Hora inválida"))
             pausar()
             return
 
-        hora_fin = int(input(centrar_texto("Ingrese hora de fin (1-23): ")).strip())
+        hora_fin_input = input(
+            centrar_texto(
+                "Ingrese hora de fin (mayor a inicio, máx 23) o 0 para salir: "
+            )
+        ).strip()
+        if hora_fin_input == "0":
+            return
+        hora_fin = int(hora_fin_input)
         if hora_fin <= hora_inicio or hora_fin > 23:
             print(centrar_texto("❌ Hora de fin inválida"))
             pausar()
@@ -246,18 +254,22 @@ def configurar_horarios():
         print(centrar_texto("1. 15 minutos"))
         print(centrar_texto("2. 20 minutos"))
         print(centrar_texto("3. 30 minutos"))
-        opcion = input(centrar_texto("Opción (1-3): ")).strip()
+        print(centrar_texto("0. Cancelar y volver"))
+        opcion = input(centrar_texto("Opción (0-3): ")).strip()
 
-        if opcion == "1":
-            intervalo = 15
-        elif opcion == "2":
-            intervalo = 20
-        elif opcion == "3":
-            intervalo = 30
-        else:
-            print(centrar_texto("❌ Opción inválida"))
-            pausar()
-            return
+        match opcion:
+            case "1":
+                intervalo = 15
+            case "2":
+                intervalo = 20
+            case "3":
+                intervalo = 30
+            case "0":
+                return
+            case _:
+                print(centrar_texto("❌ Opción inválida"))
+                pausar()
+                return
 
     except ValueError:
         print(centrar_texto("❌ Entrada inválida"))

@@ -4,7 +4,7 @@ Archivo principal del programa
 
 Este archivo coordina todos los módulos del sistema:
 - Módulo 1: Gestión de Pacientes
-- Módulo 2: Gestión de Turnos  
+- Módulo 2: Gestión de Turnos
 - Módulo 3: Configuración y Generación
 - Módulo 4: Interfaz y Reportes
 """
@@ -13,9 +13,11 @@ import os
 import sys
 import shutil
 
+
 def limpiar_pantalla():
     """Limpia la pantalla de la consola"""
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
+
 
 def centrar_texto(texto):
     """Centra el texto en la pantalla"""
@@ -23,16 +25,18 @@ def centrar_texto(texto):
         ancho_terminal = shutil.get_terminal_size().columns
     except:
         ancho_terminal = 80
-    
+
     if len(texto) >= ancho_terminal:
         return texto
-    
+
     espacios = (ancho_terminal - len(texto)) // 2
     return " " * espacios + texto
+
 
 def pausar():
     """Pausa la ejecución hasta que el usuario presione Enter"""
     input(centrar_texto("Presione Enter para continuar..."))
+
 
 def crear_directorios():
     """Crea los directorios necesarios si no existen"""
@@ -40,6 +44,7 @@ def crear_directorios():
     for directorio in directorios:
         if not os.path.exists(directorio):
             os.makedirs(directorio)
+
 
 def mostrar_menu_principal():
     """Muestra el menú principal del sistema"""
@@ -59,37 +64,47 @@ def mostrar_menu_principal():
     print(centrar_texto("Todos los derechos reservados 2025"))
     print(centrar_texto("-" * 60))
 
+
 def main():
     """Función principal del programa"""
     crear_directorios()
-    
+
     while True:
         mostrar_menu_principal()
-        
+
         try:
             opcion = input(centrar_texto("Seleccione una opción (1-5): ")).strip()
-            
-            if opcion == "1":
-                from pacientes import menu_pacientes
-                menu_pacientes()
-            elif opcion == "2":
-                from turnos import menu_turnos
-                menu_turnos()
-            elif opcion == "3":
-                from configuracion import menu_configuracion
-                menu_configuracion()
-            elif opcion == "4":
-                from interfaz_reportes import menu_informes
-                menu_informes()
-            elif opcion == "5":
-                limpiar_pantalla()
-                print(centrar_texto("¡Gracias por usar el sistema!"))
-                print(centrar_texto("Hasta luego"))
-                sys.exit()
-            else:
-                print(centrar_texto("❌ Opción inválida. Seleccione una opción del 1 al 5."))
-                pausar()
-                
+
+            match opcion:
+                case "1":
+                    from pacientes import menu_pacientes
+
+                    menu_pacientes()
+                case "2":
+                    from turnos import menu_turnos
+
+                    menu_turnos()
+                case "3":
+                    from configuracion import menu_configuracion
+
+                    menu_configuracion()
+                case "4":
+                    from interfaz_reportes import menu_informes
+
+                    menu_informes()
+                case "5":
+                    limpiar_pantalla()
+                    print(centrar_texto("¡Gracias por usar el sistema!"))
+                    print(centrar_texto("Hasta luego"))
+                    sys.exit()
+                case _:
+                    print(
+                        centrar_texto(
+                            "❌ Opción inválida. Seleccione una opción del 1 al 5."
+                        )
+                    )
+                    pausar()
+
         except KeyboardInterrupt:
             limpiar_pantalla()
             print(centrar_texto("Programa interrumpido por el usuario"))
@@ -98,6 +113,6 @@ def main():
             print(centrar_texto(f"❌ Error inesperado: {str(e)}"))
             pausar()
 
+
 if __name__ == "__main__":
     main()
-

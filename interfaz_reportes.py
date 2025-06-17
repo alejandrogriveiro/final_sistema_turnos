@@ -1,24 +1,13 @@
-"""
-MÓDULO 4: INTERFAZ Y REPORTES (REFACTORIZADO)
-Responsable: [Nombre del Estudiante D]
-
-Este módulo se encarga de:
-- Generación de informes y reportes
-- Menú de informes
-- Funciones auxiliares para reportes
-"""
-
 import json
 import os
 import shutil
 from datetime import datetime
 
 def limpiar_pantalla():
-    """Limpia la pantalla de la consola"""
-    os.system('cls' if os.name == 'nt' else 'clear')
+       os.system('cls' if os.name == 'nt' else 'clear')
 
 def centrar_texto(texto):
-    """Centra el texto en la pantalla"""
+    
     try:
         ancho_terminal = shutil.get_terminal_size().columns
     except:
@@ -31,11 +20,11 @@ def centrar_texto(texto):
     return " " * espacios + texto
 
 def pausar():
-    """Pausa la ejecución hasta que el usuario presione Enter"""
+   
     input(centrar_texto("Presione Enter para continuar..."))
 
 def cargar_turnos():
-    """Carga los turnos desde el archivo JSON"""
+    
     try:
         if os.path.exists("data/turnos.json"):
             with open("data/turnos.json", 'r', encoding='utf-8') as f:
@@ -46,12 +35,7 @@ def cargar_turnos():
         return {}
 
 def generar_informe(tipo="dia"):
-    """
-    Genera informe de turnos según el tipo especificado
     
-    Args:
-        tipo (str): Tipo de informe ('dia' o 'mes')
-    """
     limpiar_pantalla()
     es_informe_dia = tipo == "dia"
     titulo = "=== INFORME DE TURNOS DEL DÍA ===" if es_informe_dia else "=== INFORME DE TURNOS DEL MES ==="
@@ -94,7 +78,7 @@ def generar_informe(tipo="dia"):
         pausar()
         return
     
-    # Buscar turnos según el criterio
+   
     turnos = cargar_turnos()
     turnos_filtrados = []
     
@@ -125,10 +109,10 @@ def generar_informe(tipo="dia"):
     
     # Ordenar los turnos
     if es_informe_dia:
-        # Para informe diario, ordenar solo por horario
+       
         turnos_filtrados.sort(key=lambda x: x.get("horario", ""))
     else:
-        # Para informe mensual, ordenar por fecha y horario
+        
         turnos_filtrados.sort(key=lambda x: (x.get("fecha", ""), x.get("horario", "")))
     
     # Generar contenido del informe

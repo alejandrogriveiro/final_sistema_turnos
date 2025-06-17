@@ -1,14 +1,3 @@
-"""
-SISTEMA DE GESTIÓN DE TURNOS - CONSULTORIO MÉDICO
-Archivo principal del programa
-
-Este archivo coordina todos los módulos del sistema:
-- Módulo 1: Gestión de Pacientes
-- Módulo 2: Gestión de Turnos
-- Módulo 3: Configuración y Generación
-- Módulo 4: Interfaz y Reportes
-"""
-
 import os
 import sys
 import shutil
@@ -38,12 +27,18 @@ def pausar():
     input(centrar_texto("Presione Enter para continuar..."))
 
 
+#### CREACION DE DIRECTORIOS SI NO EXISTEN ####
+
+
 def crear_directorios():
     """Crea los directorios necesarios si no existen"""
     directorios = ["data", "informes"]
     for directorio in directorios:
         if not os.path.exists(directorio):
             os.makedirs(directorio)
+
+
+#### MENU PRINCIPAL Y LOGICA DE LA APLICACION  ####
 
 
 def mostrar_menu_principal():

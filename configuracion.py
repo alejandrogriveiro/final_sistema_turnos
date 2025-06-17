@@ -25,7 +25,7 @@ def pausar():
     input(centrar_texto("Presione Enter para continuar..."))
 
 
-# MENÚ DE CONFIGURACIÓN
+#### MENÚ DE CONFIGURACIÓN Y LOGICA ####
 
 
 def menu_configuracion():
@@ -52,7 +52,7 @@ def menu_configuracion():
                 pausar()
 
 
-# FUNCIONES DE ARCHIVO
+#### FUNCIONES DE ARCHIVO ####
 
 
 def cargar_configuracion():
@@ -93,6 +93,9 @@ def guardar_turnos(turnos):
         return True
     except:
         return False
+
+
+#### FUNCIONES AUXILIARES ####
 
 
 def obtener_siguiente_id():
@@ -216,7 +219,7 @@ def generar_turnos_mes():
     pausar()
 
 
-# CONFIGURAR HORARIOS
+#### CONFIGURAR HORARIOS ####
 
 
 def configurar_horarios():
@@ -297,9 +300,3 @@ def configurar_horarios():
     else:
         print(centrar_texto("❌ Cambios cancelados"))
     pausar()
-
-
-# EJECUCIÓN PRINCIPAL
-
-if __name__ == "__main__":
-    menu_configuracion()

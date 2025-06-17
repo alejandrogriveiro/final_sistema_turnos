@@ -1,3 +1,4 @@
 data/
 informes/
 __pycache__/
+*.pyc

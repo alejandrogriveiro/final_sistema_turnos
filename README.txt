@@ -11,8 +11,8 @@ de atención y generar reportes detallados.
 CARACTERÍSTICAS PRINCIPALES
 ===========================
 ✓ Gestión completa de pacientes (alta, modificación, eliminación)
-✓ Sistema de turnos con asignación y cancelación
-✓ Configuración flexible de horarios de atención
+✓ Sistema de turnos con asignación, cancelación y busqueda
+✓ Configuración flexible de horarios de atención e intervalo entre turnos
 ✓ Generación automática de turnos mensuales
 ✓ Reportes diarios y mensuales
 ✓ Interfaz de consola centrada y amigable
@@ -122,6 +122,37 @@ Los datos se almacenan en formato JSON en el directorio 'data/':
 - pacientes.json: Información de pacientes indexada por DNI
 - turnos.json: Turnos disponibles y asignados con ID único
 - configuracion.json: Configuración de horarios del consultorio
+
+ARCHIVOS DE DATOS
+=================
+Los datos se almacenan en formato JSON en el directorio 'data/':
+
+- pacientes.json: Información de pacientes indexada por DNI
+- turnos.json: Turnos disponibles y asignados con ID único
+- configuracion.json: Configuración de horarios del consultorio
+
+DATOS DE PRUEBA CARGADOS
+========================
+El sistema incluye datos precargados para realizar pruebas:
+
+pacientes.json:
+
+- DNI 11.111.111 – Alicia Perez  
+- DNI 22.222.222 – Juan Rodriguez  
+- DNI 33.333.333 – Pablo Alvarez  
+- DNI 44.444.444 – Julia Diaz  
+
+turnos.json:
+
+- DNI 11.111.111 – 02/07 14:00 hs, 17/07 16:00 hs, 05/08 14:30 hs  
+- DNI 22.222.222 – 17/07 13:30 hs, 20/08 15:30 hs  
+- DNI 33.333.333 – 08/07 16:30 hs, 17/07 15:30 hs, 13/08 14:00 hs  
+
+configuracion.json:
+
+- Hora de inicio: 14:00 hs  
+- Hora final: 17:00 hs  
+- Intervalo entre turnos: 30 minutos
 
 REPORTES GENERADOS
 ==================

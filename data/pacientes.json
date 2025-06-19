@@ -1,0 +1,26 @@
+{
+  "11111111": {
+    "nombre": "Alicia",
+    "apellido": "Perez",
+    "telefono": "1131112345",
+    "email": "aliciaperez@gmail.com"
+  },
+  "22222222": {
+    "nombre": "Juan",
+    "apellido": "Rodriguez",
+    "telefono": "113116789",
+    "email": "juanrodriguez@gmail.com"
+  },
+  "33333333": {
+    "nombre": "Pablo",
+    "apellido": "Alvarez",
+    "telefono": "113224567",
+    "email": "pabloalvarez@gmail.com"
+  },
+  "44444444": {
+    "nombre": "Julia",
+    "apellido": "Diaz",
+    "telefono": "114335678",
+    "email": "juliadiaz@gmail.com"
+  }
+}

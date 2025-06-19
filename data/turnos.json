@@ -1,0 +1,2114 @@
+{
+  "1": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "2": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "3": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "4": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "5": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "6": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "7": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "8": {
+    "dni_paciente": "",
+    "fecha": "01/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "9": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "10": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "11": {
+    "dni_paciente": "11111111",
+    "fecha": "02/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": "Alicia Perez"
+  },
+  "12": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "13": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "14": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "15": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "16": {
+    "dni_paciente": "",
+    "fecha": "02/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "17": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "18": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "19": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "20": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "21": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "22": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "23": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "24": {
+    "dni_paciente": "",
+    "fecha": "03/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "25": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "26": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "27": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "28": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "29": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "30": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "31": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "32": {
+    "dni_paciente": "",
+    "fecha": "04/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "33": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "34": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "35": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "36": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "37": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "38": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "39": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "40": {
+    "dni_paciente": "",
+    "fecha": "07/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "41": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "42": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "43": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "44": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "45": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "46": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "47": {
+    "dni_paciente": "",
+    "fecha": "08/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "48": {
+    "dni_paciente": "33333333",
+    "fecha": "08/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": "Pablo Alvarez"
+  },
+  "49": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "50": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "51": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "52": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "53": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "54": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "55": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "56": {
+    "dni_paciente": "",
+    "fecha": "09/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "57": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "58": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "59": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "60": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "61": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "62": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "63": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "64": {
+    "dni_paciente": "",
+    "fecha": "10/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "65": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "66": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "67": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "68": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "69": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "70": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "71": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "72": {
+    "dni_paciente": "",
+    "fecha": "11/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "73": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "74": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "75": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "76": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "77": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "78": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "79": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "80": {
+    "dni_paciente": "",
+    "fecha": "14/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "81": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "82": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "83": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "84": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "85": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "86": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "87": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "88": {
+    "dni_paciente": "",
+    "fecha": "15/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "89": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "90": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "91": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "92": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "93": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "94": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "95": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "96": {
+    "dni_paciente": "",
+    "fecha": "16/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "97": {
+    "dni_paciente": "",
+    "fecha": "17/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "98": {
+    "dni_paciente": "22222222",
+    "fecha": "17/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": "Juan Rodriguez"
+  },
+  "99": {
+    "dni_paciente": "",
+    "fecha": "17/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "100": {
+    "dni_paciente": "",
+    "fecha": "17/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "101": {
+    "dni_paciente": "",
+    "fecha": "17/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "102": {
+    "dni_paciente": "33333333",
+    "fecha": "17/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": "Pablo Alvarez"
+  },
+  "103": {
+    "dni_paciente": "11111111",
+    "fecha": "17/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": "Alicia Perez"
+  },
+  "104": {
+    "dni_paciente": "",
+    "fecha": "17/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "105": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "106": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "107": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "108": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "109": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "110": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "111": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "112": {
+    "dni_paciente": "",
+    "fecha": "18/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "113": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "114": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "115": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "116": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "117": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "118": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "119": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "120": {
+    "dni_paciente": "",
+    "fecha": "21/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "121": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "122": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "123": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "124": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "125": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "126": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "127": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "128": {
+    "dni_paciente": "",
+    "fecha": "22/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "129": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "130": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "131": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "132": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "133": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "134": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "135": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "136": {
+    "dni_paciente": "",
+    "fecha": "23/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "137": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "138": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "139": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "140": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "141": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "142": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "143": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "144": {
+    "dni_paciente": "",
+    "fecha": "24/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "145": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "146": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "147": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "148": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "149": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "150": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "151": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "152": {
+    "dni_paciente": "",
+    "fecha": "25/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "153": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "154": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "155": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "156": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "157": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "158": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "159": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "160": {
+    "dni_paciente": "",
+    "fecha": "28/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "161": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "162": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "163": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "164": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "165": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "166": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "167": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "168": {
+    "dni_paciente": "",
+    "fecha": "29/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "169": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "170": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "171": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "172": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "173": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "174": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "175": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "176": {
+    "dni_paciente": "",
+    "fecha": "30/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "177": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "178": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "179": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "180": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "181": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "182": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "183": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "184": {
+    "dni_paciente": "",
+    "fecha": "31/07/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "185": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "186": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "187": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "188": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "189": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "190": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "191": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "192": {
+    "dni_paciente": "",
+    "fecha": "01/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "193": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "194": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "195": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "196": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "197": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "198": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "199": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "200": {
+    "dni_paciente": "",
+    "fecha": "04/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "201": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "202": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "203": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "204": {
+    "dni_paciente": "11111111",
+    "fecha": "05/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": "Alicia Perez"
+  },
+  "205": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "206": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "207": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "208": {
+    "dni_paciente": "",
+    "fecha": "05/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "209": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "210": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "211": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "212": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "213": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "214": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "215": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "216": {
+    "dni_paciente": "",
+    "fecha": "06/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "217": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "218": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "219": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "220": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "221": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "222": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "223": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "224": {
+    "dni_paciente": "",
+    "fecha": "07/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "225": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "226": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "227": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "228": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "229": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "230": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "231": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "232": {
+    "dni_paciente": "",
+    "fecha": "08/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "233": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "234": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "235": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "236": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "237": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "238": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "239": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "240": {
+    "dni_paciente": "",
+    "fecha": "11/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "241": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "242": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "243": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "244": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "245": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "246": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "247": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "248": {
+    "dni_paciente": "",
+    "fecha": "12/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "249": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "250": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "251": {
+    "dni_paciente": "33333333",
+    "fecha": "13/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": "Pablo Alvarez"
+  },
+  "252": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "253": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "254": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "255": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "256": {
+    "dni_paciente": "",
+    "fecha": "13/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "257": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "258": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "259": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "260": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "261": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "262": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "263": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "264": {
+    "dni_paciente": "",
+    "fecha": "14/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "265": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "266": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "267": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "268": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "269": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "270": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "271": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "272": {
+    "dni_paciente": "",
+    "fecha": "15/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "273": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "274": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "275": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "276": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "277": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "278": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "279": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "280": {
+    "dni_paciente": "",
+    "fecha": "18/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "281": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "282": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "283": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "284": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "285": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "286": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "287": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "288": {
+    "dni_paciente": "",
+    "fecha": "19/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "289": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "290": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "291": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "292": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "293": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "294": {
+    "dni_paciente": "22222222",
+    "fecha": "20/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": "Juan Rodriguez"
+  },
+  "295": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "296": {
+    "dni_paciente": "",
+    "fecha": "20/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "297": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "298": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "299": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "300": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "301": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "302": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "303": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "304": {
+    "dni_paciente": "",
+    "fecha": "21/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "305": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "306": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "307": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "308": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "309": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "310": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "311": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "312": {
+    "dni_paciente": "",
+    "fecha": "22/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "313": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "314": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "315": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "316": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "317": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "318": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "319": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "320": {
+    "dni_paciente": "",
+    "fecha": "25/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "321": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "322": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "323": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "324": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "325": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "326": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "327": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "328": {
+    "dni_paciente": "",
+    "fecha": "26/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "329": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "330": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "331": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "332": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "333": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "334": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "335": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "336": {
+    "dni_paciente": "",
+    "fecha": "27/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "337": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "338": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "339": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "340": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "341": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "342": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "343": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "344": {
+    "dni_paciente": "",
+    "fecha": "28/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  },
+  "345": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "13:00",
+    "paciente_nombre": ""
+  },
+  "346": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "13:30",
+    "paciente_nombre": ""
+  },
+  "347": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "14:00",
+    "paciente_nombre": ""
+  },
+  "348": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "14:30",
+    "paciente_nombre": ""
+  },
+  "349": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "15:00",
+    "paciente_nombre": ""
+  },
+  "350": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "15:30",
+    "paciente_nombre": ""
+  },
+  "351": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "16:00",
+    "paciente_nombre": ""
+  },
+  "352": {
+    "dni_paciente": "",
+    "fecha": "29/08/2025",
+    "horario": "16:30",
+    "paciente_nombre": ""
+  }
+}

@@ -102,7 +102,9 @@ def obtener_siguiente_id():
     turnos = cargar_turnos()
     if not turnos:
         return 1
-    ids = [int(k) for k in turnos.keys() if k.isdigit()]
+    ids = [
+        int(k) for k in turnos.keys() if k.isdigit()
+    ]  # convierto en lista las claves de turnos.
     return max(ids) + 1 if ids else 1
 
 

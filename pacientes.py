@@ -1,30 +1,18 @@
-"""
-MÓDULO 1: GESTIÓN DE PACIENTES
-Responsable: [Nombre del Estudiante A]
-
-Este módulo se encarga de:
-- Registrar nuevos pacientes
-- Modificar datos de pacientes existentes
-- Eliminar pacientes del sistema
-- Validar datos personales (DNI, email, teléfono, nombres)
-"""
 
 import json
 import os
 import re
 import shutil
 
-
+#Limpiar la pantalla
 def limpiar_pantalla():
-    """Limpia la pantalla de la consola"""
     os.system("cls" if os.name == "nt" else "clear")
 
-
+#Centrar el texto
 def centrar_texto(texto):
-    """Centra el texto en la pantalla"""
     try:
         ancho_terminal = shutil.get_terminal_size().columns
-    except:
+    except:    
         ancho_terminal = 80
 
     if len(texto) >= ancho_terminal:
@@ -32,15 +20,13 @@ def centrar_texto(texto):
 
     espacios = (ancho_terminal - len(texto)) // 2
     return " " * espacios + texto
-
-
+    
+#Pausa hasta que el usuario presione enter
 def pausar():
-    """Pausa la ejecución hasta que el usuario presione Enter"""
     input(centrar_texto("Presione Enter para continuar..."))
-
-
+    
+#Carga los datos desde el archivo json
 def cargar_pacientes():
-    """Carga los datos de pacientes desde el archivo JSON"""
     try:
         if os.path.exists("data/pacientes.json"):
             with open("data/pacientes.json", "r", encoding="utf-8") as f:
@@ -50,9 +36,8 @@ def cargar_pacientes():
         print(centrar_texto(f"Error al cargar pacientes: {e}"))
         return {}
 
-
+#Guarda los datos en el archivo json
 def guardar_pacientes(pacientes):
-    """Guarda los datos de pacientes en el archivo JSON"""
     try:
         os.makedirs("data", exist_ok=True)
         with open("data/pacientes.json", "w", encoding="utf-8") as f:
@@ -62,37 +47,32 @@ def guardar_pacientes(pacientes):
         print(centrar_texto(f"Error al guardar pacientes: {e}"))
         return False
 
-
+#Validar formato dni
 def validar_dni(dni):
-    """Valida que el DNI sea un número de 7-8 dígitos"""
     return dni.isdigit() and 7 <= len(dni) <= 8
 
-
+#Validar formato email
 def validar_email(email):
-    """Valida el formato del email"""
     patron = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
     return re.match(patron, email) is not None
 
-
+#Validar formato telefono
 def validar_telefono(telefono):
-    """Valida que el teléfono contenga solo números, espacios y guiones"""
     patron = r"^[0-9\-\s\+()]+$"
     return (
         re.match(patron, telefono) is not None
         and len(telefono.replace(" ", "").replace("-", "")) >= 8
     )
 
-
+#Validar formato de nombre 
 def validar_nombre(nombre):
-    """Valida que el nombre contenga solo letras y espacios"""
     return nombre.replace(" ", "").isalpha() and len(nombre.strip()) >= 2
 
-
+#solicitar y validar datos de nuevo paciente
 def solicitar_datos_paciente():
     """Solicita y valida los datos de un nuevo paciente"""
     print(centrar_texto("=== DATOS DEL PACIENTE ==="))
     print()
-
     # Solicitar nombre
     while True:
         nombre = (
@@ -109,7 +89,6 @@ def solicitar_datos_paciente():
             pausar()
             continue
         break
-
     # Solicitar apellido
     while True:
         apellido = (
@@ -126,7 +105,6 @@ def solicitar_datos_paciente():
             pausar()
             continue
         break
-
     # Solicitar teléfono
     while True:
         telefono = input(centrar_texto("Ingrese teléfono (0 para cancelar): ")).strip()
@@ -141,7 +119,6 @@ def solicitar_datos_paciente():
             pausar()
             continue
         break
-
     # Solicitar email
     while True:
         email = (
@@ -158,7 +135,6 @@ def solicitar_datos_paciente():
             pausar()
             continue
         break
-
     return {
         "nombre": nombre,
         "apellido": apellido,
@@ -166,14 +142,13 @@ def solicitar_datos_paciente():
         "email": email,
     }
 
-
+#Registra un nuevo paciente
 def alta_paciente():
-    """Registra un nuevo paciente en el sistema"""
     limpiar_pantalla()
     print(centrar_texto("=== ALTA DE PACIENTE ==="))
     print()
-
-    pacientes = cargar_pacientes()
+ 
+    pacientes = cargar_pacientes() #carga los pacientes en el diccionario pacientes
 
     # Solicitar DNI
     while True:
@@ -196,7 +171,6 @@ def alta_paciente():
             continue
         break
 
-    # Solicitar datos del paciente
     datos = solicitar_datos_paciente()
 
     if datos is None:
@@ -205,9 +179,9 @@ def alta_paciente():
         return
 
     # Guardar paciente
-    pacientes[dni] = datos
+    pacientes[dni] = datos 
 
-    if guardar_pacientes(pacientes):
+    if guardar_pacientes(pacientes): 
         print(
             centrar_texto(
                 f"✅ Paciente {datos['nombre']} {datos['apellido']} registrado correctamente"
@@ -217,14 +191,13 @@ def alta_paciente():
         print(centrar_texto("❌ Error al guardar el paciente"))
     pausar()
 
-
+#Modificar datos de un paciente
 def modificar_paciente():
-    """Modifica los datos de un paciente existente"""
     limpiar_pantalla()
     print(centrar_texto("=== MODIFICAR PACIENTE ==="))
     print()
 
-    pacientes = cargar_pacientes()
+    pacientes = cargar_pacientes()  #carga los pacientes en el diccionario pacientes
 
     if not pacientes:
         print(centrar_texto("❌ No hay pacientes registrados"))
@@ -236,13 +209,18 @@ def modificar_paciente():
     ).strip()
     if dni == "0":
         return
+    
+    if not validar_dni(dni):
+        print(centrar_texto("❌ DNI inválido.  Debe tener 7-8 dígitos"))
+        pausar()
+        return
 
     if dni not in pacientes:
         print(centrar_texto("❌ No existe un paciente con ese DNI"))
         pausar()
         return
-
-    paciente = pacientes[dni]
+    
+    paciente = pacientes.get(dni) #guarda temporalmente el paciente a modificar
 
     while True:
         limpiar_pantalla()
@@ -268,7 +246,6 @@ def modificar_paciente():
                 .title()
             )
             if nuevo_nombre == "":
-                # El usuario no quiso modificar, volvemos al menú de opciones
                 continue
             if validar_nombre(nuevo_nombre):
                 paciente["nombre"] = nuevo_nombre
@@ -284,7 +261,6 @@ def modificar_paciente():
                 .title()
             )
             if nuevo_apellido == "":
-                # El usuario no quiso modificar, volvemos al menú de opciones
                 continue
             if validar_nombre(nuevo_apellido):
                 paciente["apellido"] = nuevo_apellido
@@ -298,7 +274,6 @@ def modificar_paciente():
                 centrar_texto("Nuevo teléfono, enter para cancelar: ")
             ).strip()
             if nuevo_telefono == "":
-                # El usuario no quiso modificar, volvemos al menú de opciones
                 continue
             if validar_telefono(nuevo_telefono):
                 paciente["telefono"] = nuevo_telefono
@@ -314,7 +289,6 @@ def modificar_paciente():
                 .lower()
             )
             if nuevo_email == "":
-                # El usuario no quiso modificar, volvemos al menú de opciones
                 continue
             if validar_email(nuevo_email):
                 paciente["email"] = nuevo_email
@@ -327,16 +301,15 @@ def modificar_paciente():
             print(centrar_texto("❌ Opción inválida"))
             pausar()
 
-    pacientes[dni] = paciente
-    if guardar_pacientes(pacientes):
+    pacientes[dni] = paciente 
+    if guardar_pacientes(pacientes): 
         print(centrar_texto("✅ Cambios guardados correctamente"))
     else:
         print(centrar_texto("❌ Error al guardar los cambios"))
     pausar()
 
-
+#Eliminar un paciente
 def eliminar_paciente():
-    """Elimina un paciente del sistema"""
     limpiar_pantalla()
     print(centrar_texto("=== ELIMINAR PACIENTE ==="))
     print()
@@ -348,19 +321,25 @@ def eliminar_paciente():
         pausar()
         return
 
-    # Solicitar DNI
     dni = input(
         centrar_texto("Ingrese DNI del paciente a eliminar (0 para volver): ")
     ).strip()
     if dni == "0":
         return
 
-    if dni not in pacientes:
-        print(centrar_texto("❌ No existe un paciente con ese DNI"))
+    if not validar_dni(dni):
+        print(centrar_texto("❌ DNI inválido. Debe tener 7-8 dígitos"))
         pausar()
         return
 
-    paciente = pacientes[dni]
+    if dni not in pacientes:
+        print(centrar_texto("❌ No existe un paciente con ese DNI")) 
+        
+        pausar()
+        return
+
+    paciente = pacientes.get(dni) #guarda temporalmente el paciente a modificar
+    
     limpiar_pantalla()
     print(centrar_texto("=== CONFIRMAR ELIMINACIÓN ==="))
     print(centrar_texto(f"DNI: {dni}"))
@@ -388,7 +367,7 @@ def eliminar_paciente():
 
         del pacientes[dni]
 
-        if guardar_pacientes(pacientes):
+        if guardar_pacientes(pacientes): 
             print(centrar_texto("✅ Paciente eliminado correctamente"))
         else:
             print(centrar_texto("❌ Error al eliminar el paciente"))
@@ -396,9 +375,8 @@ def eliminar_paciente():
         print(centrar_texto("Eliminación cancelada"))
     pausar()
 
-
+#Consulta datos de un paciente
 def consultar_paciente():
-    """Consulta los datos de un paciente por DNI"""
     limpiar_pantalla()
     print(centrar_texto("=== CONSULTAR PACIENTE ==="))
     print()
@@ -417,7 +395,7 @@ def consultar_paciente():
         return
 
     if not validar_dni(dni):
-        print(centrar_texto("❌ DNI inválido"))
+        print(centrar_texto("❌ DNI inválido. Debe tener 7-8 dígitos"))
         pausar()
         return
 
@@ -436,9 +414,8 @@ def consultar_paciente():
     print(centrar_texto(f"Email: {paciente['email']}"))
     pausar()
 
-
+#Menu principal 
 def menu_pacientes():
-    """Menú principal del módulo de pacientes"""
     while True:
         limpiar_pantalla()
         print(centrar_texto("=" * 50))

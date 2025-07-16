@@ -25,6 +25,8 @@ def centrar_texto(texto):
 def pausar():
     input(centrar_texto("Presione Enter para continuar..."))
     
+#-------------------------------------------------------    
+    
 #Carga los datos desde el archivo json
 def cargar_pacientes():
     try:
@@ -46,6 +48,7 @@ def guardar_pacientes(pacientes):
     except Exception as e:
         print(centrar_texto(f"Error al guardar pacientes: {e}"))
         return False
+#----------------------------------------------------------------------
 
 #Validar formato dni
 def validar_dni(dni):
@@ -68,6 +71,8 @@ def validar_telefono(telefono):
 def validar_nombre(nombre):
     return nombre.replace(" ", "").isalpha() and len(nombre.strip()) >= 2
 
+#--------------------------------------------------------------------------
+
 #solicitar y validar datos de nuevo paciente
 def solicitar_datos_paciente():
     """Solicita y valida los datos de un nuevo paciente"""
@@ -80,6 +85,10 @@ def solicitar_datos_paciente():
         )
         if nombre == "0":
             return None
+        if not nombre:
+            print(centrar_texto("❌ El nombre es obligatorio"))
+            pausar()
+            continue
         if not nombre:
             print(centrar_texto("❌ El nombre es obligatorio"))
             pausar()
@@ -140,7 +149,9 @@ def solicitar_datos_paciente():
         "apellido": apellido,
         "telefono": telefono,
         "email": email,
+        #devuelve un dicc con los datos del paciente
     }
+#----------------------------------------------------------------
 
 #Registra un nuevo paciente
 def alta_paciente():
@@ -178,7 +189,7 @@ def alta_paciente():
         pausar()
         return
 
-    # Guardar paciente
+    # Guardar paciente una nueva entrada
     pacientes[dni] = datos 
 
     if guardar_pacientes(pacientes): 
@@ -190,6 +201,7 @@ def alta_paciente():
     else:
         print(centrar_texto("❌ Error al guardar el paciente"))
     pausar()
+    
 
 #Modificar datos de un paciente
 def modificar_paciente():
@@ -326,7 +338,7 @@ def eliminar_paciente():
     ).strip()
     if dni == "0":
         return
-
+   
     if not validar_dni(dni):
         print(centrar_texto("❌ DNI inválido. Debe tener 7-8 dígitos"))
         pausar()
@@ -448,6 +460,7 @@ def menu_pacientes():
 
 
 # Función para que otros módulos verifiquen si existe un paciente
+
 def obtener_paciente(dni):
     """Obtiene los datos de un paciente por DNI"""
     pacientes = cargar_pacientes()
@@ -456,3 +469,4 @@ def obtener_paciente(dni):
 
 if __name__ == "__main__":
     menu_pacientes()
+#Este bloque se ejecuta solo si el archivo se ejecuta directamente (por ejemplo, con python pacientes.py).

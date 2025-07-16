@@ -40,7 +40,6 @@ def crear_directorios():
 
 #### MENU PRINCIPAL Y LOGICA DE LA APLICACION  ####
 
-
 def mostrar_menu_principal():
     """Muestra el menú principal del sistema"""
     limpiar_pantalla()
